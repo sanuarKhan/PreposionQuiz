@@ -20,6 +20,8 @@ const answer4 = document.getElementById('showAnswer4');
 const answer5 = document.getElementById('showAnswer5');
 const answer6 = document.getElementById('showAnswer6');
 
+const clue = document.getElementById('clue');
+
 function showAnswer(index){
   index.addEventListener('click', ()=>{
     console.log("o i am working")
@@ -30,6 +32,7 @@ function showAnswer(index){
       answer4.style.display = 'none'
       answer5.style.display = 'none'
       answer6.style.display = 'none'
+      clue.style.display = 'none'
       
     }
     else if(index === guess2){
@@ -40,6 +43,7 @@ function showAnswer(index){
       answer4.style.display = 'none'
       answer5.style.display = 'none'
       answer6.style.display = 'none'
+      clue.style.display = 'none'
       
 
     }
@@ -50,6 +54,7 @@ function showAnswer(index){
       answer4.style.display = 'none'
       answer5.style.display = 'none'
       answer6.style.display = 'none'
+      clue.style.display = 'none'
     }
     else if( index === guess4){
       answer4.style.display = 'flex'
@@ -58,6 +63,7 @@ function showAnswer(index){
       answer3.style.display = 'none'
       answer5.style.display = 'none'
       answer6.style.display = 'none'
+      clue.style.display = 'none'
     }
     else if(index === guess5){
       answer5.style.display = 'flex'
@@ -66,6 +72,7 @@ function showAnswer(index){
       answer3.style.display = 'none'
       answer4.style.display = 'none'
       answer6.style.display = 'none'
+      clue.style.display = 'none'
     } else{
       answer6.style.display = 'flex'
       answer1.style.display = 'none'
@@ -73,6 +80,7 @@ function showAnswer(index){
       answer3.style.display = 'none'
       answer4.style.display = 'none'
       answer5.style.display = 'none'
+      clue.style.display = 'none'
       
     }
     
